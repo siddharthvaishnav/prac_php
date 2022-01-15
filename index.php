@@ -21,7 +21,7 @@ $desc=$_POST['desc'];
 $sql="INSERT INTO `trip`.`trip` ( `name`, `age`, `gender`, `phone`, `email`, `other`) VALUES ('$name', '$age', '$gender', '$phone', '$email', '$desc');";
 
 if ($con->query($sql)==TRUE) {
-    echo "Successfully inserted";
+    //echo "Successfully inserted";
     $insert=true;
 }
 else {
